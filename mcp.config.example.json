@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rhino7": {
+      "command": "C:/path/to/rhino7-grasshopper-mcp/.venv/Scripts/python.exe",
+      "args": ["C:/path/to/rhino7-grasshopper-mcp/server.py"]
+    }
+  }
+}

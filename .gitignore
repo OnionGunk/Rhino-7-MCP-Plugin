@@ -1,0 +1,26 @@
+# Local Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime requests can contain geometry, user text and local paths
+sessions/
+*.log
+
+# Local credentials and client configuration
+.env
+.env.*
+!.env.example
+config*.toml
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
